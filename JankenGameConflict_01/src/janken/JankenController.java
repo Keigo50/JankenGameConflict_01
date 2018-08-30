@@ -70,6 +70,8 @@ public class JankenController {
             } else {
              score +=1; draw++;
             }
+
+
          return (r == 2) ? "あなたの勝ち！" : ((r == 1) ? "あなたの負け！" : "あいこ！");
      }
      //自分の手・相手の手・じゃんけんの結果を各ラベルに表示
